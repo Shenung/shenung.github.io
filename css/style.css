@@ -82,7 +82,7 @@ margin-bottom: 20px;
     margin-bottom: 10px;
 }
 #bottom img{
-    max-resolution: 150px;
+    max-height: 150px;
     border-radius: 10px;
 }
 .one-half{
