@@ -9,7 +9,8 @@
 </head>
 <body>
 	<header>
-		<div class="container clearfix">
+	    
+		<!--<div class="container clearfix">
 			<p id="header-title">Welcome to ShenungFouamvung.com</p>
 			<ul id="header-nav">
 				<li>
@@ -25,11 +26,32 @@
 					<a href="#">Good Reads</a>
 				</li>
 			</ul>
-		</div>
+		</div>-->
 	</header>
 	<section id="top">
+	<div class="dropdown">
+
+    <!-- trigger button -->
+            <button>Navigate</button>
+
+    <!-- dropdown menu -->
+            <ul class="dropdown-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
 		<h1><span class="skinny">Welcome to</span> Shenung Fouamvung.com</h1>
 		<h2>My goal is to gain new skills in every project.</h2>
+		<div>
+        <form>
+            <fieldset>
+                <input type="text" name="name" id="name" placeholder="Enter Email Address" tabindex="1">
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
 	</section>
 
 	<section>
@@ -50,16 +72,15 @@
 				    <img src="images/html_css_pic.png" alt="Lynda"/>
 					<h3>HTML/CSS</h3>
 					<p>Learn HTML and CSS at <a href="http://summerwebbootcamp.com/">summerwebbootcamp.com/</a></p>
-					<a class="btn" href="http://usefedora.com" target="_blank">Learn More</a>
 				</div><!--
 				--><div class="one-half">
 				    <img src="images/libgdx.png" alt="LibGDX"/>
 					<h3>LibGDX</h3>
-					<p>Learn to code games using LibGDX game engine at <a href="libgdx.badlogicgames.com/">libgdx.badlogicgames.com/</a></p>
+					<p>Learn to code games using LibGDX game engine at <a href="http://libgdx.badlogicgames.com/">libgdx.badlogicgames.com/</a></p>
 				</div>
 			</div>
 		</div>
-	</section>
-
+    </section>
+    <a id="fixedPos" href="#top"><img id="fixedPosImg" src="images/Up_arrow.png"></a>
 </body>
 </html>
