@@ -67,3 +67,16 @@ margin: 0 auto;
 font-weight: 100;
 color: #fefefe;
 }
+
++/* clearfix */
++.row:before,
++.row:after {
++ content: "";
++ display: table;
++}
++.row:after {
++ clear: both;
++}
++.row {
++ zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
