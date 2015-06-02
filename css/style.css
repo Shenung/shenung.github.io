@@ -1,270 +1,285 @@
 * {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
+  box-sizing: border-box;
 }
- body {
-     font-family: 'courier new', courier, sans-serif;
-     font-weight: 500;
-     color: #555;
+body {
+  font-family: 'courier new', courier, sans-serif;
+  font-weight: 500;
+  color: #555;
 }
- h1, h2, h3{
-     font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+h1, h2, h3{
+  font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 }
- h1 {
-     font-size: 36px;
-     line-height: 1.2;
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
 }
- h2 {
-     font-size: 21px;
-     line-height: 1.2;
+h2 {
+  font-size: 21px;
+  line-height: 1.2;
 }
- p {
-     font-size: 16px;
-     line-height: 20px;
-     margin-bottom: 20px;
+p {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
- a {
-     text-decoration: none;
-     color: #2ec371;
+a {
+  text-decoration: none;
+  color: #2ec371;
 }
- blockquote {
-     font-size: 21px;
-     font-weight: 400;
-     line-height: 30px;
+blockquote {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
 }
- pre {
-     font-size: 13px;
-     font-weight: 400;
-     line-height: 18.5714302062988px;
+pre {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.5714302062988px;
 }
- section {
-     padding-top: 30px;
-     padding-bottom: 30px;
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 header{
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
- #header-title{
-     float:left;
-     padding-top: 15px;
-     margin-bottom: 0px 
+#header-title{
+  float:left;
+  padding-top: 15px;
+  margin-bottom: 0px 
 }
- #header-nav{
-     float:right;
+#header-nav{
+  float:right;
 }
- #header-nav li{
-     display:inline-block;
-     vertical-align: top;
+#header-nav li{
+  display:inline-block;
+  vertical-align: top;
 }
- #header-nav li a{
-     display: block;
-     padding:15px;
+#header-nav li a{
+  display: block;
+  padding:15px;
 }
- #header-nav li a:hover{
-     background-color: #fefefe;
+#header-nav li a:hover{
+  background-color: #fefefe;
 }
 /* Top Section Styling */
- #top {
-     text-align: center;
-     background-color: #cbd0d2;
-     padding-top: 100px;
-     padding-bottom: 100px;
-     background: url('../images/programing_background.jpg') no-repeat center center;
-     background-size: cover;
+#top {
+  text-align: center;
+  background-color: #cbd0d2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url('../images/programing_background.jpg') no-repeat center center;
+  background-size: cover;
 }
 #top input[type="submit"]:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
- #top h1 {
-     color: #2ec371;
-     font-weight: 800;
+#top h1 {
+  color: #2ec371;
+  font-weight: 800;
 }
- #top h2 {
-     color: #cecece;
-     font-weight: 200;
+#top h2 {
+  color: #cecece;
+  font-weight: 200;
 }
 /* Middle Section */
- #shenung-image{
-     float: left;
-     margin-right: 30px;
-     margin-bottom: 20px;
-     border-radius: 100%;
+#shenung-image{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 100%;
 }
 
 #shenung-image2{
-     float: right;
-     margin-right: 30px;
-     margin-bottom: 20px;
-     max-height: 175px;
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  max-height: 175px;
 }
- #bottom {
-     background-color: #f9f9f9;
-     text-align: center;
+#bottom {
+  background-color: #f9f9f9;
+  text-align: center;
 }
- #bottom h2{
-     text-align: center;
-     font-weight: 600;
-     font-size: 32px;
+#bottom h2{
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
 }
- #botom h3{
-     font-size: 24px;
-     margin-top: 20px;
-     margin-bottom: 10px;
+#botom h3{
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
- #bottom img{
-     max-height: 150px;
-     border-radius: 10px;
+#bottom img{
+  max-height: 150px;
+  border-radius: 10px;
 }
- .one-half{
-     border: 1px solid #ececec;
-     background-color: #fefefe;
-     width: 48%;
-     display: inline-block;
-     padding: 30px 20px;
-     margin: 1%;
-     vertical-align: top;
+.one-half{
+  border: 1px solid #ececec;
+  background-color: #fefefe;
+  width: 48%;
+  display: inline-block;
+  padding: 30px 20px;
+  margin: 1%;
+  vertical-align: top;
 }
 /* Universal */
- .container {
-     width: 970px;
-     margin: 0 auto;
+.container {
+  width: 970px;
+  margin: 0 auto;
 }
- .skinny {
-     font-weight: 100;
-     color: #FEE494;
+.skinny {
+  font-weight: 100;
+  color: #FEE494;
 }
- .bnt{
-     background-color: #428bca;
-     border:1px solid #357ebd;
-     color:#fefefe;
-     padding: 5px 10px;
-     border-radius: 5px;
+.bnt{
+  background-color: #428bca;
+  border:1px solid #357ebd;
+  color:#fefefe;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
- .btn:hover{
-     background-color: #357ebd;
+.btn:hover{
+  background-color: #357ebd;
 }
 /* clearfix */
- .row:before,.row:after, .clearfix:before, .clearfix:after {
-     content: "";
-     display: table;
+.row:before,.row:after, .clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
 }
- .row:after, .clearfix:after {
-     clear: both;
+.row:after, .clearfix:after {
+  clear: both;
 }
- .row, .clearfix{
-     zoom: 1;
-    /* For IE 6/7 (trigger hasLayout) */
+.row, .clearfix{
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
 }
 
-.dropdown {
-    position: fixed;
-    top: -100px;
-    width:100px;
-    float: right;
-    /** Make it fit tightly around it's children */
-    display: inline-block;
+
+
+/*DROPDOWN MENU STYLES*/
+.dropdown-menu {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .8s ;
+  transition: height .8s ease-in-out;
 }
+.dropdown {
+  position: fixed;
+  top: -100px;
+  width:100px;
+  float: right;
+  /** Make it fit tightly around it's children */
+  display: inline-block;
+  
+}
+
 
 .dropdown .dropdown-menu {
-    position: absolute;
+  position: absolute;
 
-    /**
-     * Set the top of the dropdown menu to be positioned 100%
-     * from the top of the container, and aligned to the left.
-     */
-    top: 100%;
-    left: 0;
+  /**
+  * Set the top of the dropdown menu to be positioned 100%
+  * from the top of the container, and aligned to the left.
+  */
+  top: 100%;
+  left: 0;
 
-    /** Allow no empty space between this and .dropdown */
-    margin: 0;
+  /** Allow no empty space between this and .dropdown */
+  margin: 0;
+  display: none;
+  list-style: none; /** Remove list bullets */
+  width: 100%; /** Set the width to 100% of it's parent */
+  padding: 0;
 }
 
 /**
- * Apply these styles to .dropdown-menu when user hovers
- * over .dropdown
- */
+* Apply these styles to .dropdown-menu when user hovers
+* over .dropdown
+*/
 .dropdown:hover .dropdown-menu {
 
-    /** Show dropdown menu */
-    display: block;
+  /** Show dropdown menu */
+  display: block;
+  height: 300px;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    display: none;
-    margin: 0;
-
-    /****************
-     ** NEW STYLES **
-     ****************/
-
-    list-style: none; /** Remove list bullets */
-    width: 100%; /** Set the width to 100% of it's parent */
-    padding: 0;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
+  position: relative;
+  display: inline-block;
 }
 
 /** Button Styles **/
 .dropdown button {
-    background: #FF6223;
-    color: #FFFFFF;
-    border: none;
-    margin: 0;
-    padding: 0.4em 0.8em;
-    font-size: 1em;
+  background: #FF6223;
+  color: #FFFFFF;
+  border: none;
+  margin: 0;
+  padding: 0.4em 0.8em;
+  font-size: 1em;
 }
 
 /** List Item Styles **/
 .dropdown a {
-    display: block;
-    padding: 0.2em 0.8em;
-    text-decoration: none;
-    background: rgba(36, 55, 86,.2);
-    color: #FEE494;
+  display: block;
+  padding: 0.2em 0.8em;
+  text-decoration: none;
+  background: rgba(36, 55, 86,.2);
+  color: #FEE494;
 }
 
 /** List Item Hover Styles **/
 .dropdown a:hover {
-    background: #BBBBBB;
+  background: #BBBBBB;
 }
 
 #fixedPosImg{
-    border-radius:100%;
+  border-radius:100%;
 }
 
 #fixedPos{
-    border-radius: 100%;
-    border-color: 1px solid rgba(2, 94, 46, 1);
-    position: fixed;
-    right: 10px;
-    bottom:10px;
-    padding:10px;
-    color: rgba(2, 94, 46, 0.5);
+  border-radius: 100%;
+  border-color: 1px solid rgba(2, 94, 46, 1);
+  position: fixed;
+  right: 10px;
+  bottom:10px;
+  padding:10px;
+  color: rgba(2, 94, 46, 0.5);
 }
 
 .fullscreen{
-    width: 100%;
-    height: 100%;
-    background: url('http://i.imgur.com/QbR404p.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  background: url('http://i.imgur.com/QbR404p.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 #notfound{
-    color:firebrick;
-    font-size: 24px;
+  color:firebrick;
+  font-size: 24px;
 }
 .projectPics{
-    width: 500px
+  width: 300px;
+  height:250px;
+  border-radius: 5px;
+  border-color: 2px solid #005252;
+}
+
+.screenshots{
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #CCE0E0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+article div{
+  max-width: 300px;
+}
+
+.show{
+  display: 
 }
