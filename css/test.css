@@ -1,0 +1,12 @@
+#pink{
+  background-color : pink;
+}
+.item{
+  display:inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius : 100%;
+  background-color: #ccc;
+  
+}
