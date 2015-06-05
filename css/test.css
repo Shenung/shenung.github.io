@@ -1,12 +1,38 @@
+/*
 #pink{
-  background-color : pink;
+background-color : pink;
 }
 .item{
-  display:inline-block;
-  height: 100px;
+display:inline-block;
+height: 100px;
+width: 100px;
+margin: 10px;
+border-radius : 100%;
+background-color: #ccc;
+
+}
+*/
+
+body{
+  background: #000 url('http://planetoftheweb.com/i/8ball/empty.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 900px;
+} 
+
+.btn {
+  height: 40px;
   width: 100px;
-  margin: 10px;
-  border-radius : 100%;
-  background-color: #ccc;
-  
+  background-color: #001F4C;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+#button {
+  height: 30px;
+  width: 300px;
+  background-color: #CCCCFF;
+  font-size: 20px;
 }
