@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a25f01-e71f-48f4-b729-7c384ef9fa77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.html" afterPath="$PROJECT_DIR$/Test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/test.css" afterPath="$PROJECT_DIR$/css/test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/test.js" afterPath="$PROJECT_DIR$/js/test.js" />
     </list>
     <ignored path="shenung.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,31 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Lost.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lost.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lost.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Lost.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Lost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.24247226">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -58,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lost.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lost.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/Lost.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3137558">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -94,8 +83,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/Lost.js" />
         <option value="$PROJECT_DIR$/Test.html" />
+        <option value="$PROJECT_DIR$/js/Lost.js" />
         <option value="$PROJECT_DIR$/Lost.html" />
         <option value="$PROJECT_DIR$/css/Lost.css" />
       </list>
@@ -116,10 +105,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="683" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -493,19 +480,27 @@
       <workItem from="1433493843551" duration="1261000" />
       <workItem from="1433495132334" duration="1036000" />
       <workItem from="1433516986742" duration="836000" />
-      <workItem from="1433538319502" duration="590000" />
+      <workItem from="1433538319502" duration="6056000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix errors">
+      <created>1433538943755</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1433538943755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3723000" />
+    <option name="totallyTimeSpent" value="9189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="0" y="0" width="683" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -513,14 +508,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12445095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25487256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -542,7 +536,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Fix errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -619,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-19.961538">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -627,27 +622,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lost.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Lost.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Lost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.24247226">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Lost.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3137558">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -107,3 +107,40 @@
 //  hTag.innerHTML = weekdays[day.getDay()];
 //  newDay.appendChild(hTag); 
 //}
+//-------------------------------------------------------------------------
+//var listOfStuff = ['1','2','3','4','5'];
+//
+//function loopMeThrough(){
+//  for(var i = 0; i < listOfStuff.length; i++){
+//    console.log(listOfStuff[i]);
+//  }
+//}
+
+//-----------still needs work----------------------------------------------
+//var myStr = 'hello world my name is computer. ';
+//
+//function spellCheck(word){
+//  var output;
+//  var temp = 0;
+//  var wordCount = 0;
+//  for(var i = 0; i<word.length;i++){
+//    
+//    if(word[i] === ' '){
+//      wordCount++;
+//      console.log(word.substring(temp,i));
+//      if(wordCount === 1){
+//        var f = (word.substring(temp,i).length)-((word.substring(temp,i).length)-1);
+//        word.substring(temp,f).toUpperCase();
+//        console.log(word.substring(temp,f).toUpperCase());
+//      }
+//      if(word.substring(temp,i).length <  5){
+//            
+//      }
+//      
+//      i++;
+//      temp = i;
+//    }
+//  }
+//}
+//
+//spellCheck(myStr);

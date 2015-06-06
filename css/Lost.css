@@ -1,0 +1,90 @@
+*{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html{
+    background-color: black;
+}
+
+button{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #000;
+    color: white;
+}
+p{
+    z-index:1;
+}
+
+.start{
+    z-index : -1;
+    visibility: visible;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+}
+
+.fail{
+    z-index : 2;
+    visibility: hidden;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+}
+.almostFail{
+    z-index : -1;
+    visibility: hidden;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+}
+
+#at25{
+    z-index : 1;
+    visibility: hidden;
+    font-size: 30px;
+    color: red;
+}
+#at20{
+    z-index : 1;
+    visibility: hidden;
+    font-size: 30px;
+    color: red;
+}
+#at15{
+    z-index : 1;
+    visibility: hidden;
+    font-size: 30px;
+    color: red;
+}
+#at10{
+    z-index : 1;
+    visibility: hidden;
+    font-size: 30px;
+    color: red;
+}
+#at5{
+    z-index : 1;
+    visibility: hidden;
+    font-size: 30px;
+    color: red;
+}
+
+#abort{
+    border-radius: 50% 50%;
+    border: 1px solid #cecece;
+    box-shadow: darkgrey;
+
+}
