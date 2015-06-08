@@ -1,5 +1,5 @@
 *{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif ;
 }
 
 html{
@@ -15,7 +15,21 @@ button{
 p{
     z-index:1;
 }
+/*@font-face {*/
+    /*font-family: 'ds-digitalnormal';*/
+    /*src: url('font/DigiFont/WebFonts/ds-digi-webfont.eot');*/
+    /*src: url('font/DigiFont/WebFonts/ds-digi-webfont.eot?#iefix') format('embedded-opentype'),*/
+    /*url('font/DigiFont/WebFonts/ds-digi-webfont.woff2') format('woff2'),*/
+    /*url('font/DigiFont/WebFonts/ds-digi-webfont.woff') format('woff'),*/
+    /*url('font/DigiFont/WebFonts/ds-digi-webfont.ttf') format('truetype'),*/
+    /*url('font/DigiFont/WebFonts/ds-digi-webfont.svg#ds-digitalnormal') format('svg');*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
 
+/*}*/
+#digitalTime{
+    font-family: 'ds-digitalnormal';
+}
 .start{
     z-index : -1;
     visibility: visible;
