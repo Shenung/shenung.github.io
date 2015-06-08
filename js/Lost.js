@@ -7,7 +7,6 @@ var timerId = null;
 
 myNode.addEventListener('click', function() {
     myNode.value='self destruct engaged';
-    timerId = setInterval (count, 1000 );
 });
 
 function count(){
@@ -58,12 +57,12 @@ function abort(){
         clearInterval(timerId);
         timerId = null;
     }
-    timerId=null;
+    Timer=null;
 }
 
 function hit(){
     Timer = 108;
-    if(timerId ===null){
+    if(timerId === null){
         timerId = setInterval(count,1000)
     }
     timerset();

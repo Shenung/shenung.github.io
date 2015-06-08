@@ -70,8 +70,10 @@
 //  myElement.style['-moz-margin-left'] = '10px';
 //----------------------------------------------------------------------
 
-//document.querySelector('.boxes').addEventListener('click', function(e){ if(e.target.className !== 'boxes'){
-// e.target.id='pink';}}, false);
+//document.querySelector('.boxes').addEventListener('click', function(e){
+// if(e.target.className !== 'boxes'){
+// e.target.id='pink';}
+// }, false);
 
 //----------------------------------------------------------------------
 //function myFunction(){
