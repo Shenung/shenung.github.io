@@ -37,3 +37,8 @@ body{
   background-color: #CCCCFF;
   font-size: 20px;
 }
+
+div{
+  border: 1px solid black;
+  height: 100px;
+}

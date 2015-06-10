@@ -146,3 +146,39 @@
 //}
 //
 //spellCheck(myStr);
+
+
+//-----------------------AUDIO---------------------------------------
+
+
+var myAudio = document.createElement('audio');
+myAudio.src = "audio/Kamuy.mp3";
+
+var myPlayer = document.querySelector('div');
+myPlayer.addEventListener('click',function(){
+    if(myAudio){
+        myAudio.pause();
+    }
+    else{
+        myAudio.play();
+    }
+},false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
