@@ -14,7 +14,7 @@ import (
 //making a type called tweet that has attributes of message as an array of string
 //and has a time stamp
 type tweet struct {
-	message   []string
+	message   string
 	timestamp time.Time
 }
 
@@ -31,8 +31,15 @@ type mpData struct {
 
 //type profile with attributes of Username thats  string
 //contains the users Username
+//contains the users Email
 type profile struct {
 	Username string
+	Email    string
+}
+
+type ProfileData struct {
+	Tweets  []tweet
+	Profile profile
 }
 
 //assigns a new template to the variable tpl
@@ -40,7 +47,14 @@ var tpl = template.New("")
 
 //Routers to handle routes for the pages
 func init() {
+	//Parse the templates
+	_, err := tpl.ParseFiles("template/index.gohtml", "template/createProfile.gohtml", "template/profile.gohtml")
+	if err != nil {
+		panic(err)
+	}
+
 	http.HandleFunc("/", handler)
+	http.HandleFunc("/createProfile", createProfile)
 }
 
 //Function to handle the main page taht people will be on
@@ -89,11 +103,59 @@ func handler(res http.ResponseWriter, req *http.Request) {
 		Auth:     u != nil,
 		LoginURL: loginURL,
 	}
-	if data.Logged {
+	//checks is the the data variable with the auth attribute is true
+	if data.Auth {
 		data.Email = u.Email
 	}
 
+	//Serves template defaults to file name
 	err = tpl.ExecuteTemplate(res, "index.gohtml", data)
+	if err != nil {
+		http.Error(res, "Server error!", http.StatusInternalServerError)
+		log.Errorf(ctx, "Template Execute Error: %s\n", err.Error())
+		return
+	}
+}
+
+//checks to make sure that the username is in the correct length
+//formating as well as in format
+func confirmCreateProfile(username string) bool {
+	return len(username) > 5
+}
+
+func createProfile(res http.ResponseWriter, req *http.Request) {
+	//create a new context
+	ctx := appengine.NewContext(req)
+	//create a new user with the the user as the current context
+	u := user.Current(ctx)
+
+	//check if the the request method is POST
+	if req.Method == "POST" {
+		//create variable with the name of the form field
+		username := req.FormValue("username")
+		//check the username from the formfield if it meets requirements
+		//errors if false
+		if !confirmCreateProfile(username) {
+			http.Error(res, "Invalid input!", http.StatusBadRequest)
+			log.Warningf(ctx, "Invalid profile information from %s\n", req.RemoteAddr)
+			return
+		}
+
+		//assigns attributes its values
+		key := datastore.NewKey(ctx, "profile", u.Email, 0, nil)
+		p := profile{
+			Username: username,
+			Email:    u.Email,
+		}
+		//Puts the key into datastore of p to be accesssable
+		_, err := datastore.Put(ctx, key, &p)
+		if err != nil {
+			http.Error(res, "Server error!", http.StatusInternalServerError)
+			log.Errorf(ctx, "Create profile Error: %s\n", err.Error())
+			return
+		}
+	}
+	err := tpl.ExecuteTemplate(res, "createProfile.gohtml", nil)
 	if err != nil {
 		http.Error(res, "Server error!", http.StatusInternalServerError)
 		log.Errorf(ctx, "Template Execute Error: %s\n", err.Error())
